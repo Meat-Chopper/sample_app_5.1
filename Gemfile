@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '5.1.4'
 gem 'bcrypt', '3.1.11'
+gem 'will_paginate', '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma', '3.9.1'
 gem 'sass-rails', '5.0.6'
@@ -17,6 +19,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'faker', '1.7.3'
   gem 'web-console', '3.5.1'
   gem 'listen', '3.1.5'
   gem 'spring', '2.0.2'
